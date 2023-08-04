@@ -17,8 +17,8 @@ function Experience() {
     {
       id:2,
       src:p4,
-      text:"Tribute Page",
-      style:'shadow-purple-500'
+      text:"Youtube Clone",
+      style:'shadow-gray-500'
     },
     {
       id:3,
