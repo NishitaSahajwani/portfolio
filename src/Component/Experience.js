@@ -42,7 +42,7 @@ function Experience() {
     {
       id:6,
       src:p6,
-      text:"Calculator",
+      text:"Calcul",
       style:'shadow-gray-500'
     },
   ]
