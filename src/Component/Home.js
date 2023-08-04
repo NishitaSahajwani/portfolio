@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiCaretRight } from 'react-icons/bi'
 import {Link} from 'react-scroll'
+import nishita from '../assets/nishita.png'
 function Home() {
     return (
         <div name='home' className='h-screen w-full bg-gradient-to-b from-black to-gray-800'>
@@ -19,7 +20,7 @@ function Home() {
                     </div>
                 </div>
                 <div>
-                    <img src='nishita.png' className='rounded-3xl mx-auto w-2/4 mt-[-20px] bg-gradient-to-r from-cyan-500 to-blue-500 md:w-full' ></img>
+                    <img src={nishita} className='rounded-3xl mx-auto w-2/4 mt-[-20px] bg-gradient-to-r from-cyan-500 to-blue-500 md:w-full' ></img>
                 </div>
             </div>
         </div>

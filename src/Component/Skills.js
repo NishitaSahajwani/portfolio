@@ -1,40 +1,46 @@
 import React from 'react'
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import javaS from '../assets/javaS.png'
+import bootstrap from '../assets/bootstrap.png'
+import R from '../assets/R.png'
+import github from '../assets/github.png'
 
 function Skills() {
   const items =[
     {
       id:1,
-      src:'html.png',
+      src:html,
       text:"HTML",
       style:'shadow-orange-500'
     },
     {
       id:2,
-      src:'css.png',
+      src:css,
       text:"CSS",
       style:'shadow-blue-500'
     },
     {
       id:3,
-      src:'javaS.png',
+      src:javaS,
       text:"JavaScript",
       style:'shadow-yellow-500'
     },
     {
       id:4,
-      src:'bootstrap.png',
+      src:bootstrap,
       text:"Bootstrap",
       style:'shadow-purple-500'
     },
     {
       id:5,
-      src:'R.png',
+      src:R,
       text:"React",
       style:'shadow-cyan-600'
     },
     {
       id:6,
-      src:'github.png',
+      src:github,
       text:"GitHub",
       style:'shadow-gray-500'
     },
