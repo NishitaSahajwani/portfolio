@@ -4,7 +4,7 @@ import css from '../assets/css.png'
 import javaS from '../assets/javaS.png'
 import bootstrap from '../assets/bootstrap.png'
 import R from '../assets/R.png'
-import github from '../assets/github.png'
+import tailwind from '../assets/tailwind.png'
 
 function Skills() {
   const items =[
@@ -40,8 +40,8 @@ function Skills() {
     },
     {
       id:6,
-      src:github,
-      text:"GitHub",
+      src:tailwind,
+      text:"Tailwind CSS",
       style:'shadow-gray-500'
     },
   ]
@@ -62,7 +62,7 @@ function Skills() {
           <div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${value.style}`}>
            
                   <img className='w-20 mx-auto' src={value.src}></img>
-                  <p className={value.id == 5 ? "py-3" : "py-1"}>{value.text}</p>
+                  <p className={value.id >=5 ? "py-3" : "py-1"}>{value.text}</p>
                   </div>
                   </>
                 )

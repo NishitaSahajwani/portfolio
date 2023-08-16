@@ -23,7 +23,7 @@ function Experience() {
     {
       id:3,
       src:p3,
-      text:"Todo App",
+      text:"Chat Application",
       style:'shadow-yellow-500'
     },
  
@@ -33,18 +33,18 @@ function Experience() {
       text:"Jewlery shop software",
       style:'shadow-blue-500'
     },
-    {
-      id:5,
-      src:p5,
-      text:"List of github users",
-      style:'shadow-cyan-600'
-    },
-    {
-      id:6,
-      src:p6,
-      text:"Calculat",
-      style:'shadow-gray-500'
-    },
+    // {
+    //   id:5,
+    //   src:p5,
+    //   text:"List of github users",
+    //   style:'shadow-cyan-600'
+    // },
+    // {
+    //   id:6,
+    //   src:p6,
+    //   text:"Calculat",
+    //   style:'shadow-gray-500'
+    // },
   ]
   return (
     <div name='experience' className='w-full h-auto bg-gradient-to-b from-gray-800 to-black'>
